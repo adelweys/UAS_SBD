@@ -1,0 +1,39 @@
+MariaDB [(none)]> show databases;
++--------------------+
+| Database           |
++--------------------+
+| class_db           |
+| information_schema |
+| mysql              |
+| nadya              |
+| performance_schema |
+| phpmyadmin         |
+| sbd                |
+| task_manager       |
+| test               |
+| tubes_pwl          |
+| website_laravel    |
++--------------------+
+11 rows in set (0.037 sec)
+
+MariaDB [(none)]> use task_manager
+Database changed
+MariaDB [task_manager]> show tables;
++------------------------+
+| Tables_in_task_manager |
++------------------------+
+| failed_jobs            |
+| migrations             |
+| password_resets        |
+| personal_access_tokens |
+| task_categories        |
+| task_dailies           |
+| task_indicators        |
+| task_persons           |
+| task_plans             |
+| users                  |
++------------------------+
+10 rows in set (0.007 sec)
+
+MariaDB [task_manager]> CREATE VIEW 211402103
+    -> 
